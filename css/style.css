@@ -27,6 +27,8 @@
 .flex-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -56,10 +58,35 @@
 	display: flex;
 }
 
+.titles {
+	font-family: Copperplate;
+}
+
+.locations {
+	font-family: Copperplate;
+	font-weight: 700;
+}
+
+.details {
+	font-family: Copperplate;
+}
+
+.nest-list {
+	width: 6em;
+}
+
 ul {
   float: left;
 }
 
 ul > li {
   width: 6em;
+}
+
+ul > dd {
+  width: 6em;
+}
+
+h2 {
+	font-family: Copperplate;
 }
