@@ -6,6 +6,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  margin: 12px;
 }
 
 .column {
@@ -22,6 +23,11 @@
 .column iframe {
   margin: 8px;
   vertical-align: middle;
+}
+
+.tech-used {
+	align-items: right;
+  justify-content: right;
 }
 
 .flex-container {
@@ -87,6 +93,6 @@ ul > dd {
   width: 6em;
 }
 
-h2 {
+h4 {
 	font-family: Copperplate;
 }
